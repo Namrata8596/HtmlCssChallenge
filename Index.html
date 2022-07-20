@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+    <script
+      type="text/javascript"
+      src="https://www.gstatic.com/charts/loader.js"
+    ></script>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+
+  <body>
+    <div class="leftSection"></div>
+    <div class="middleSection">
+      <div class="topContainerStyle">
+        <span>Exchange Not Connected</span>
+        <div style="float: right" class="buttonStyle">Renew Subsciption</div>
+        <span style="float: right">Trial Subsciption-7 More Days Left </span>
+      </div>
+      <div class="balanceContainerParent">
+        <div class="balanceContainer">
+          <div>
+            Balance<br />
+            <span><b>$25,200.97</b></span>
+          </div>
+          <br />
+          <table style="width: 100%">
+            <tr>
+              <td>Invested<br /><b>$10,458.00</b></td>
+              <td>% Profit<br /><b>+60%</b></td>
+              <td>USD Profit<br /><b>$15,648.38</b></td>
+            </tr>
+          </table>
+          <br />
+          <div style="width: 100px" class="buttonStyle">Add Exchange</div>
+        </div>
+        <div style="margin-left: 10px; display: flex" class="balanceContainer">
+          <div>
+            <canvas id="myChart" style="width: 100%; max-width: 200px"></canvas>
+          </div>
+          <div>
+            <table>
+              <tr>
+                <td>Bitcoin<br />$11,567.00<br /></td>
+              </tr>
+              <tr>
+                <td>Ethereum<br />$5,583.00<br /></td>
+              </tr>
+              <tr>
+                <td>Monero<br />$8,050.97<br /></td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+      <div style="display: flex; width: 100%; margin: 0px 0px 15px 0px">
+        <div class="portfolioContainer">
+          Portfolio 1
+          <div id="Portfoliochart1" class="portfolioChart"></div>
+        </div>
+        <div style="margin-left: 10px" class="portfolioContainer">
+          Portfolio 2
+          <div id="Portfoliochart2" class="portfolioChart"></div>
+        </div>
+        <div style="margin-left: 10px" class="portfolioContainer">
+          Portfolio 3
+          <div id="Portfoliochart3" class="portfolioChart"></div>
+        </div>
+      </div>
+      <div style="display: flex; width: 100%; font-size: 12px">
+        <div class="chartContainer">div41</div>
+        <div style="margin-left: 10px" class="transcationContainer">div42</div>
+      </div>
+    </div>
+    <div class="rightSection">
+      <div style="display: flex">
+        <img
+          src="userimage.jpg"
+          style="width: 70px; height: 70px; border-radius: 50%"
+        /><span
+          >Good Morning,Ivan!<br /><span style="color: blueviolet"
+            >Settings</span
+          ></span
+        >
+      </div>
+      <div>
+        <table>
+          <th>Recent Activity<br /><br /></th>
+          <tr>
+            <td>1,837USD=0.084 BTC<br />1 BTC= 8,468 USD<br /><br /></td>
+          </tr>
+          <br /><br />
+          <tr>
+            <td>1,837USD=0.084 BTC<br />1 BTC= 8,468 USD<br /><br /></td>
+          </tr>
+          <br /><br />
+          <tr>
+            <td>1,837USD=0.084 BTC<br />1 BTC= 8,468 USD<br /><br /></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
